@@ -1,0 +1,369 @@
+            body {
+                background-color: #f1f1f1;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
+                margin: 0 auto;
+            }
+            
+            a {
+                text-decoration: none;
+                color: blue;
+                transition: all 500ms;
+            }
+            
+            a:hover {
+                letter-spacing: 0.1em;
+            }
+            
+            .maintitle {
+                text-align: center;
+                font-size: 36px;
+                font-weight: 200;
+                margin: auto;
+                display: block;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                transition: all 500ms;
+                letter-spacing: 0.05em;
+            }
+            
+            .maintitle:hover {
+                letter-spacing: 0.1em;
+            }
+            
+            .opening {
+                font-weight: 400;
+                font-size: 24px;
+                text-align: center;
+                color: rgb(0, 0, 0);
+                margin-left: 259px;
+                margin-right: 250px;
+                margin-bottom: 50px;
+                padding-bottom: 30px;
+            }
+            
+            h1 {
+                text-align: center;
+                font-size: 60px;
+                font-weight: 400;
+                margin: auto;
+                padding-top: 50px;
+                padding-bottom: 10px;
+                transition: all 500ms;
+                text-transform: uppercase;
+            }
+            
+            h2 {
+                text-align: center;
+                font-size: 36px;
+                font-weight: 400;
+                margin: auto;
+                padding-top: 50px;
+                padding-bottom: 10px;
+                transition: all 500ms;
+                text-transform: uppercase;
+            }
+            
+            .end {
+                margin: auto;
+                padding-top: 60px;
+                padding-bottom: 10px;
+                text-align: center;
+            }
+            
+            .contact {
+                padding: 20px;
+                letter-spacing: normal;
+                transition: all 500ms;
+                font-size: 18px;
+            }
+            
+            .contact:hover {
+                letter-spacing: 0.1em;
+            }
+            
+            .flexbox-1 {
+                display: flex;
+                margin: 0px 100px 50px 100px;
+            }
+            
+            .flexbox-2 {
+                display: flex;
+                margin: 50px 100px 50px 100px;
+            }
+            
+            .twoimages {
+                flex: 50%;
+                padding: 5px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .twovideo {
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                flex-wrap: nowrap;
+            }
+            
+            .small {
+                width: 700px;
+                transition: all 500ms;
+            }
+            
+            .small:hover {
+                width: 750px;
+                cursor: url(images/loupe.png), auto;
+            }
+            
+            .images {
+                padding: 30px;
+                padding-top: 0;
+                flex-basis: 60%;
+            }
+            
+            .big {
+                width: 1000px;
+                padding-top: 0;
+                padding: 20px;
+                transition: all 500ms;
+            }
+            
+            .big:hover {
+                width: 1050px;
+                cursor: url(images/loupe.png), auto;
+            }
+            
+            ul {
+                list-style: none;
+            }
+            
+            .text {
+                padding: 30px;
+                padding-top: 0;
+                padding-left: 10px;
+                flex-basis: 40%;
+                text-align: left;
+                line-height: 1.5em;
+                font-size: 14px;
+                position: sticky;
+                align-self: flex-start;
+                top: 30px;
+                font-weight: 400;
+                color: #000000;
+                border-left: 0.5px solid #7e7e7e;
+                min-width: 20%;
+            }
+            
+            .fullscale {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 88%;
+                transition: all 500ms;
+            }
+            
+            .fullscale:hover {
+                width: 90%;
+                cursor: url(images/loupe.png), auto;
+            }
+            
+            .fullscalespace {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+                padding: 30px;
+                transition: all 500ms;
+            }
+            
+            .fullscalespace:hover {
+                width: 85%;
+                cursor: url(images/loupe.png), auto;
+            }
+            
+            .back-to-top {
+                padding: 20px;
+                letter-spacing: normal;
+                transition: all 500ms;
+                font-size: 14px;
+                color: #777777;
+                margin: 0 auto;
+                text-align: center;
+                display: block;
+            }
+            
+            .back-to-top:hover {
+                letter-spacing: 0.1em;
+            }
+            
+            .video {
+                display: flex;
+                justify-content: center;
+                padding-bottom: 100px;
+            }
+            
+            .video-1 {
+                flex-basis: 50%;
+                padding-bottom: 100px;
+                padding: 5px;
+            }
+            
+            .video-2 {
+                flex-basis: 50%;
+                padding-bottom: 100px;
+                padding: 5px;
+            }
+            /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+            
+            @media screen and (max-width: 600px) {
+                .flexbox-1 {
+                    flex: 100%;
+                    max-width: 100%;
+                    margin: 0 auto;
+                }
+                .images {
+                    padding: 10px;
+                    flex-basis: 50%;
+                }
+                .opening {
+                    font-weight: 400;
+                    font-size: 16px;
+                    text-align: left;
+                    color: rgb(0, 0, 0);
+                    margin: 0 auto;
+                    padding-left: 30px;
+                    margin-bottom: 50px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                .text {
+                    padding: 10px;
+                    padding-left: 0;
+                    flex-basis: 50%;
+                    text-align: left;
+                    line-height: 1.5em;
+                    font-size: 10px;
+                    position: sticky;
+                    align-self: flex-start;
+                    top: 60px;
+                    font-weight: 400;
+                    color: #000000;
+                    border-left: 1px solid #000000;
+                    max-width: 10%;
+                }
+                .maintitle {
+                    text-align: left;
+                    font-size: 24px;
+                    font-weight: 200;
+                    margin: auto;
+                    display: block;
+                    padding-top: 50px;
+                    padding-bottom: 10px;
+                    padding-left: 30px;
+                    transition: all 500ms;
+                }
+                .end {
+                    margin: auto;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    text-align: center;
+                }
+                .contact {
+                    padding: 5px;
+                    letter-spacing: normal;
+                    transition: all 500ms;
+                    font-size: 12px;
+                }
+                .big {
+                    width: 300px;
+                    padding-top: 0;
+                    transition: all 500ms;
+                    display: block;
+                }
+                .big:hover {
+                    width: 320px;
+                    cursor: url(images/loupe.png), auto;
+                }
+                h1 {
+                    text-align: left;
+                    font-size: 40px;
+                    font-weight: 400;
+                    margin: auto;
+                    padding-top: 50px;
+                    padding-bottom: 10px;
+                    padding-left: 30px;
+                    transition: all 500ms;
+                    text-transform: uppercase;
+                }
+                h2 {
+                    text-align: left;
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin: auto;
+                    padding-top: 50px;
+                    padding-bottom: 5px;
+                    padding-left: 30px;
+                    transition: all 500ms;
+                    text-transform: uppercase;
+                }
+                .fullscale {
+                    display: block;
+                    margin: 50px 100px 50px 100px;
+                    padding: 5px;
+                    width: 300px;
+                }
+                .fullscale:hover {
+                    width: 310px;
+                    cursor: url(images/loupe.png), auto;
+                }
+                .fullscalespace {
+                    display: block;
+                    margin: 50px 100px 50px 100px;
+                    padding: 1px;
+                    width: 300px;
+                }
+                .fullscalespace:hover {
+                    width: 310px;
+                    cursor: url(images/loupe.png), auto;
+                }
+                .flexbox-2 {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 50px 100px 50px 100px;
+                }
+                .twoimages {
+                    flex: 50%;
+                    padding: 5px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .small {
+                    width: 300px;
+                }
+                .small:hover {
+                    width: 310px;
+                    cursor: url(images/loupe.png), auto;
+                }
+                .video {
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 100px;
+                    width: 300px;
+                }
+                .video-1 {
+                    padding-bottom: 100px;
+                    padding: 5px;
+                    width: 180px;
+                }
+                .video-2 {
+                    padding-bottom: 100px;
+                    padding: 5px;
+                    width: 180px;
+                }
+                .twovideo {
+                    display: block;
+                    justify-content: center;
+                    padding-bottom: 100px;
+                }
+            }

@@ -281,10 +281,6 @@
                     transition: all 500ms;
                     display: block;
                 }
-                .big:hover {
-                    width: 320px;
-                    cursor: url(images/loupe.png), auto;
-                }
                 h1 {
                     text-align: left;
                     font-size: 40px;
@@ -313,19 +309,11 @@
                     padding: 5px;
                     width: 300px;
                 }
-                .fullscale:hover {
-                    width: 310px;
-                    cursor: url(images/loupe.png), auto;
-                }
                 .fullscalespace {
                     display: block;
                     margin: 50px 100px 50px 100px;
                     padding: 1px;
                     width: 300px;
-                }
-                .fullscalespace:hover {
-                    width: 310px;
-                    cursor: url(images/loupe.png), auto;
                 }
                 .flexbox-2 {
                     display: flex;
@@ -340,10 +328,6 @@
                 }
                 .small {
                     width: 300px;
-                }
-                .small:hover {
-                    width: 310px;
-                    cursor: url(images/loupe.png), auto;
                 }
                 .video {
                     display: flex;

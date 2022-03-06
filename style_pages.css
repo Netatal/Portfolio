@@ -111,11 +111,6 @@
                 transition: all 500ms;
             }
             
-            .small:hover {
-                width: 750px;
-                cursor: url(images/loupe.png), auto;
-            }
-            
             .images {
                 padding: 30px;
                 padding-top: 0;
@@ -127,11 +122,6 @@
                 padding-top: 0;
                 padding: 20px;
                 transition: all 500ms;
-            }
-            
-            .big:hover {
-                width: 1050px;
-                cursor: url(images/loupe.png), auto;
             }
             
             ul {
@@ -175,11 +165,6 @@
                 width: 80%;
                 padding: 30px;
                 transition: all 500ms;
-            }
-            
-            .fullscalespace:hover {
-                width: 85%;
-                cursor: url(images/loupe.png), auto;
             }
             
             .back-to-top {

@@ -1,246 +1,201 @@
-body {
-    background-color: #f1f1f1;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    margin: 0 auto;
-}
-
-a {
-    text-decoration: none;
-    color: blue;
-}
-
-header {
-    text-align: center;
-    margin: 0 auto;
-}
-
-.maintitle {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 200;
-    margin: auto;
-    display: block;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    transition: all 500ms;
-    letter-spacing: 0.05em;
-}
-
-.maintitle:hover {
-    letter-spacing: 0.1em;
-}
-
-.opening {
-    font-weight: 400;
-    font-size: 24px;
-    text-align: center;
-    color: blue;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-bottom: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: nowrap;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-
-/* Create four equal columns that sits next to each other */
-
-.column {
-    flex: 50%;
-    max-width: 50%;
-}
-
-.column {
-    vertical-align: middle;
-    width: 50%;
-    padding: 10px;
-}
-
-img {
-    padding: 10px;
-    vertical-align: middle;
-    width: 100%;
-}
-
-.img1,
-.img2,
-.img3,
-.img4 {
-    position: relative;
-    box-shadow: 0 10px 10px rgba(255, 255, 255, 0.07)
-}
-
-.imglink {
-    transition: all 500ms;
-}
-
-.imglink:hover {
-    opacity: 0;
-}
-
-.title,
-.title2,
-.title3,
-.title4 {
-    font-weight: 200;
-    font-size: 40px;
-    color: black;
-    z-index: -1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    text-align: center;
-}
-
-.end {
-    margin: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-}
-
-.contact {
-    padding: 20px;
-    letter-spacing: normal;
-    transition: all 500ms;
-    font-size: 18px;
-}
-
-.contact:hover {
-    letter-spacing: 0.1em;
-}
-
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-
-@media screen and (max-width: 800px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
-    .column {
-        flex: 100%;
-        flex-wrap: wrap;
-        max-width: 100%;
-    }
-    .title,
-    .title2,
-    .title3,
-    .title4 {
-        font-size: 16px;
-        position: relative;
-        padding-top: 15px;
-        text-align: center;
-        margin: auto;
-    }
-    .opening {
-        font-weight: 400;
-        font-size: 16px;
-        text-align: left;
-        color: blue;
-        margin-left: 80px;
-        margin-right: 50px;
-        margin-bottom: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .maintitle {
-        text-align: center;
-        font-size: 24px;
-        font-weight: 200;
-        margin: auto;
-        display: block;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        transition: all 500ms;
-    }
-    img {
-        vertical-align: middle;
-        width: 100%;
-    }
-    .end {
-        margin: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        text-align: center;
-    }
-    .contact {
-        padding: 5px;
-        letter-spacing: normal;
-        transition: all 500ms;
-        font-size: 12px;
-    }
-}
-
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-    .opening {
-        font-weight: 400;
-        font-size: 14px;
-        text-align: left;
-        color: blue;
-        margin-left: 80px;
-        margin-right: 50px;
-        margin-bottom: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .maintitle {
-        text-align: left;
-        font-size: 24px;
-        font-weight: 200;
-        margin: auto;
-        display: block;
-        padding-top: 50px;
-        padding-bottom: 10px;
-        padding-left: 80px;
-        transition: all 500ms;
-    }
-    img {
-        vertical-align: middle;
-        width: 100%;
-    }
-    .end {
-        margin: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        text-align: center;
-    }
-    .contact {
-        padding: 5px;
-        letter-spacing: normal;
-        transition: all 500ms;
-        font-size: 12px;
-    }
-    .title,
-    .title2,
-    .title3,
-    .title4 {
-        font-size: 16px;
-        position: relative;
-        padding-top: 15px;
-        text-align: center;
-        margin: auto;
-    }
-}
+                                                                                                                                                                                                                                                                                                                                                        body {
+                                                                                                                                                                                                                                                                                                                                                            background-color: #363535;
+                                                                                                                                                                                                                                                                                                                                                            font-family: 'Poppins', sans-serif;
+                                                                                                                                                                                                                                                                                                                                                            font-weight: 400;
+                                                                                                                                                                                                                                                                                                                                                            margin: 0 auto;
+                                                                                                                                                                                                                                                                                                                                                            margin-top: 50px;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        a {
+                                                                                                                                                                                                                                                                                                                                                            text-decoration: none;
+                                                                                                                                                                                                                                                                                                                                                            color: rgb(229, 229, 229);
+                                                                                                                                                                                                                                                                                                                                                            transition: all 500ms;
+                                                                                                                                                                                                                                                                                                                                                            letter-spacing: 0.05em;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        a:hover {
+                                                                                                                                                                                                                                                                                                                                                            letter-spacing: 0.1em;
+                                                                                                                                                                                                                                                                                                                                                            position: relative;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .squares:hover:after {
+                                                                                                                                                                                                                                                                                                                                                            content: url(images/200200_9squer.png);
+                                                                                                                                                                                                                                                                                                                                                            /* no need for qoutes */
+                                                                                                                                                                                                                                                                                                                                                            display: block;
+                                                                                                                                                                                                                                                                                                                                                            position: absolute;
+                                                                                                                                                                                                                                                                                                                                                            left: 123px;
+                                                                                                                                                                                                                                                                                                                                                            /* change this value to one that suits you */
+                                                                                                                                                                                                                                                                                                                                                            top: 56px;
+                                                                                                                                                                                                                                                                                                                                                            /* change this value to one that suits you */
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .space:hover:after {
+                                                                                                                                                                                                                                                                                                                                                            content: url(images/200200_aboutspace.png);
+                                                                                                                                                                                                                                                                                                                                                            /* no need for qoutes */
+                                                                                                                                                                                                                                                                                                                                                            display: block;
+                                                                                                                                                                                                                                                                                                                                                            position: absolute;
+                                                                                                                                                                                                                                                                                                                                                            left: 123px;
+                                                                                                                                                                                                                                                                                                                                                            /* change this value to one that suits you */
+                                                                                                                                                                                                                                                                                                                                                            top: 56px;
+                                                                                                                                                                                                                                                                                                                                                            /* change this value to one that suits you */
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .chooset:hover:after {
+                                                                                                                                                                                                                                                                                                                                                            content: url(images/200200_chooseat.png);
+                                                                                                                                                                                                                                                                                                                                                            /* no need for qoutes */
+                                                                                                                                                                                                                                                                                                                                                            display: block;
+                                                                                                                                                                                                                                                                                                                                                            position: absolute;
+                                                                                                                                                                                                                                                                                                                                                            left: 123px;
+                                                                                                                                                                                                                                                                                                                                                            /* change this value to one that suits you */
+                                                                                                                                                                                                                                                                                                                                                            top: 56px;
+                                                                                                                                                                                                                                                                                                                                                            /* change this value to one that suits you */
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .smallp:hover:after {
+                                                                                                                                                                                                                                                                                                                                                            content: url(images/200200_small.png);
+                                                                                                                                                                                                                                                                                                                                                            /* no need for qoutes */
+                                                                                                                                                                                                                                                                                                                                                            display: block;
+                                                                                                                                                                                                                                                                                                                                                            position: absolute;
+                                                                                                                                                                                                                                                                                                                                                            left: 123px;
+                                                                                                                                                                                                                                                                                                                                                            /* change this value to one that suits you */
+                                                                                                                                                                                                                                                                                                                                                            top: 56px;
+                                                                                                                                                                                                                                                                                                                                                            /* change this value to one that suits you */
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        header {
+                                                                                                                                                                                                                                                                                                                                                            text-align: left;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .maintitle {
+                                                                                                                                                                                                                                                                                                                                                            text-align: left;
+                                                                                                                                                                                                                                                                                                                                                            font-size: 36px;
+                                                                                                                                                                                                                                                                                                                                                            font-weight: 200;
+                                                                                                                                                                                                                                                                                                                                                            padding-left: 30px;
+                                                                                                                                                                                                                                                                                                                                                            padding-top: 100px;
+                                                                                                                                                                                                                                                                                                                                                            padding-bottom: 50px;
+                                                                                                                                                                                                                                                                                                                                                            transition: all 500ms;
+                                                                                                                                                                                                                                                                                                                                                            letter-spacing: 0.05em;
+                                                                                                                                                                                                                                                                                                                                                            margin: 50px 100px 50px 100px;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .maintitle:hover {
+                                                                                                                                                                                                                                                                                                                                                            letter-spacing: 0.08em;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .row {
+                                                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                                                            flex-wrap: nowrap;
+                                                                                                                                                                                                                                                                                                                                                            padding-left: 80px;
+                                                                                                                                                                                                                                                                                                                                                            padding-right: 80px;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        h1 {
+                                                                                                                                                                                                                                                                                                                                                            text-align: left;
+                                                                                                                                                                                                                                                                                                                                                            font-size: 90px;
+                                                                                                                                                                                                                                                                                                                                                            font-weight: 700;
+                                                                                                                                                                                                                                                                                                                                                            margin: auto;
+                                                                                                                                                                                                                                                                                                                                                            padding-top: 50px;
+                                                                                                                                                                                                                                                                                                                                                            padding-bottom: 10px;
+                                                                                                                                                                                                                                                                                                                                                            transition: all 500ms;
+                                                                                                                                                                                                                                                                                                                                                            text-transform: uppercase;
+                                                                                                                                                                                                                                                                                                                                                            line-height: 0.9em;
+                                                                                                                                                                                                                                                                                                                                                            font-family: 'Poppins', sans-serif;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .titles {
+                                                                                                                                                                                                                                                                                                                                                            padding: 30px;
+                                                                                                                                                                                                                                                                                                                                                            padding-top: 0;
+                                                                                                                                                                                                                                                                                                                                                            flex-basis: 60%;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .flexbox-1 {
+                                                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                                                            margin: 0px 100px 50px 100px;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .text {
+                                                                                                                                                                                                                                                                                                                                                            padding: 30px;
+                                                                                                                                                                                                                                                                                                                                                            padding-top: 0;
+                                                                                                                                                                                                                                                                                                                                                            padding-left: 50px;
+                                                                                                                                                                                                                                                                                                                                                            flex-basis: 40%;
+                                                                                                                                                                                                                                                                                                                                                            text-align: left;
+                                                                                                                                                                                                                                                                                                                                                            line-height: 1.5em;
+                                                                                                                                                                                                                                                                                                                                                            font-size: 30px;
+                                                                                                                                                                                                                                                                                                                                                            position: sticky;
+                                                                                                                                                                                                                                                                                                                                                            align-self: flex-start;
+                                                                                                                                                                                                                                                                                                                                                            top: 30px;
+                                                                                                                                                                                                                                                                                                                                                            color: #fafafa;
+                                                                                                                                                                                                                                                                                                                                                            border-left: 0.5px solid #37f8ff;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        ate four equal columns that sits next to each other */ .column {
+                                                                                                                                                                                                                                                                                                                                                            flex: 50%;
+                                                                                                                                                                                                                                                                                                                                                            max-width: 50%;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .column {
+                                                                                                                                                                                                                                                                                                                                                            vertical-align: middle;
+                                                                                                                                                                                                                                                                                                                                                            width: 50%;
+                                                                                                                                                                                                                                                                                                                                                            padding: 10px;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        img {
+                                                                                                                                                                                                                                                                                                                                                            padding: 10px;
+                                                                                                                                                                                                                                                                                                                                                            vertical-align: middle;
+                                                                                                                                                                                                                                                                                                                                                            width: 100%;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .img1,
+                                                                                                                                                                                                                                                                                                                                                        .img2,
+                                                                                                                                                                                                                                                                                                                                                        .img3,
+                                                                                                                                                                                                                                                                                                                                                        .img4 {
+                                                                                                                                                                                                                                                                                                                                                            position: relative;
+                                                                                                                                                                                                                                                                                                                                                            box-shadow: 0 10px 10px rgba(255, 255, 255, 0.07)
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .imglink {
+                                                                                                                                                                                                                                                                                                                                                            transition: all 500ms;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .imglink:hover {
+                                                                                                                                                                                                                                                                                                                                                            opacity: 0;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .title,
+                                                                                                                                                                                                                                                                                                                                                        .title2,
+                                                                                                                                                                                                                                                                                                                                                        .title3,
+                                                                                                                                                                                                                                                                                                                                                        .title4 {
+                                                                                                                                                                                                                                                                                                                                                            font-weight: 200;
+                                                                                                                                                                                                                                                                                                                                                            font-size: 40px;
+                                                                                                                                                                                                                                                                                                                                                            color: black;
+                                                                                                                                                                                                                                                                                                                                                            z-index: -1;
+                                                                                                                                                                                                                                                                                                                                                            top: 50%;
+                                                                                                                                                                                                                                                                                                                                                            left: 50%;
+                                                                                                                                                                                                                                                                                                                                                            transform: translate(-50%, -50%);
+                                                                                                                                                                                                                                                                                                                                                            position: absolute;
+                                                                                                                                                                                                                                                                                                                                                            text-align: center;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .end {
+                                                                                                                                                                                                                                                                                                                                                            margin: auto;
+                                                                                                                                                                                                                                                                                                                                                            padding-top: 100px;
+                                                                                                                                                                                                                                                                                                                                                            padding-bottom: 100px;
+                                                                                                                                                                                                                                                                                                                                                            text-align: center;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .contact {
+                                                                                                                                                                                                                                                                                                                                                            padding: 20px;
+                                                                                                                                                                                                                                                                                                                                                            letter-spacing: normal;
+                                                                                                                                                                                                                                                                                                                                                            transition: all 500ms;
+                                                                                                                                                                                                                                                                                                                                                            font-size: 18px;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .contact:hover {
+                                                                                                                                                                                                                                                                                                                                                            letter-spacing: 0.1em;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        .titles {
+                                                                                                                                                                                                                                                                                                                                                            padding: 30px;
+                                                                                                                                                                                                                                                                                                                                                            padding-top: 0;
+                                                                                                                                                                                                                                                                                                                                                            flex-basis: 60%;
+                                                                                                                                                                                                                                                                                                                                                        }

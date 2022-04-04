@@ -35,7 +35,7 @@
                 font-weight: 400;
                 font-size: 24px;
                 text-align: center;
-                color: rgb(0, 0, 0);
+                color: #363535;
                 margin-left: 259px;
                 margin-right: 250px;
                 margin-bottom: 50px;
@@ -141,7 +141,7 @@
                 top: 30px;
                 font-weight: 400;
                 color: #000000;
-                border-left: 0.5px solid #7e7e7e;
+                border-left: 0.5px solid #363535;
                 min-width: 20%;
             }
             
@@ -172,7 +172,7 @@
                 letter-spacing: normal;
                 transition: all 500ms;
                 font-size: 14px;
-                color: #777777;
+                color: #363535;
                 margin: 0 auto;
                 text-align: center;
                 display: block;
